@@ -1,0 +1,3 @@
+- [] Create a query builder inside the Models instead of calling a specific column in controller/s
+- [] In TaskController it is unecessary to assign a variable if you don't want to call the variable after Mass Assignment using Eloquent `create()`.
+- [] Add try-catch block function when creating, or updating data. It is safer, since it would throw exception if there's an error.
